@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF7A59;
+}
+h3{
+    background-color: #FF7A59;
+    border-radius: 20px;           
+    color: white;
+    width: 290px;
+    padding: 15px;
+}
+hr{
+    width: 310px;
+    border: 2px solid #CC6247;
+}
+
+form{
+    background-color: #FFB8A6 ;
+    border:3px solid #CC6247;
+    border-radius: 50px;
+    width: 600px;
+    padding: 20px;
+}
+
+input{
+    width: 300px;
+    border:2px solid #CC6247;
+    margin: 7px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+input::placeholder{
+    color: #CC6247;
+    font-weight: bold;
+    
+}
+
+button{
+    border:3px solid #CC6247 ;
+    background-color: #CC6247;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 28px;
+    width: 158px;
+    border-radius: 20px;
+
+}
+
+button.btn_cancelar{
+    background-color: #FF7A59 !important;
+    color: white !important;
+    
+}
+
+button.btn_cancelar:hover{
+    border: 3px solid #CC6247;
+}
+button:hover{
+    border:3px solid #CC6247;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border:3px solid #CC6247;
+    color: #803D2D;
+    font-weight: bold;
+    
+}
+
+th{
+    background-color: #803D2D;
+    color: white;
+    width: 250px;
+
+}
+
+
